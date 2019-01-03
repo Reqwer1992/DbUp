@@ -25,7 +25,7 @@ namespace DbUp.Tests.Support.Oracle
         [Fact]
         public void CanParseMultilineScript()
         {
-            var multiCommand = "create table FOO (myid INT NOT NULL);";
+            var multiCommand = "create table FOO (myid INT NOT NULL);/";
             multiCommand += Environment.NewLine;
             multiCommand += "create table BAR (myid INT NOT NULL);";
 
